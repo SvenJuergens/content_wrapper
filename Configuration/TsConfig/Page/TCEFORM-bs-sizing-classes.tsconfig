@@ -1,0 +1,28 @@
+#################
+#### TCEFORM ####
+#################
+TCEFORM {
+  tt_content {
+    tx_contentwrapper_classes_select{
+      removeItems := addToList(example-class)
+      addItems {
+        h-25 = h-25
+        h-50 = h-50
+        h-75 = h-75
+        h-100 = h-100
+        h-auto = h-auto
+        mh-100 = mh-100
+        mw-100 = mw-100
+        vh-100 = vh-100
+        vh-100 = vh-100
+        vw-100 = vw-100
+        vw-100 = vw-100
+        w-25 = w-25
+        w-50 = w-50
+        w-75 = w-75
+        w-100 = w-100
+        w-auto = w-auto
+      }
+    }
+  }
+}
