@@ -1,0 +1,66 @@
+#################
+#### TCEFORM ####
+#################
+TCEFORM {
+  tt_content {
+    tx_contentwrapper_classes_select{
+      removeItems := addToList(example-class)
+      addItems {
+        d-block = d-block
+        d-flex = d-flex
+        d-inline = d-inline
+        d-inline-block = d-inline-block
+        d-inline-flex = d-inline-flex
+        d-lg-block = d-lg-block
+        d-lg-flex = d-lg-flex
+        d-lg-inline = d-lg-inline
+        d-lg-inline-block = d-lg-inline-block
+        d-lg-inline-flex = d-lg-inline-flex
+        d-lg-none = d-lg-none
+        d-lg-table = d-lg-table
+        d-lg-table-cell = d-lg-table-cell
+        d-lg-table-row = d-lg-table-row
+        d-md-block = d-md-block
+        d-md-flex = d-md-flex
+        d-md-inline = d-md-inline
+        d-md-inline-block = d-md-inline-block
+        d-md-inline-flex = d-md-inline-flex
+        d-md-none = d-md-none
+        d-md-table = d-md-table
+        d-md-table-cell = d-md-table-cell
+        d-md-table-row = d-md-table-row
+        d-none = d-none
+        d-print-block = d-print-block
+        d-print-flex = d-print-flex
+        d-print-inline = d-print-inline
+        d-print-inline-block = d-print-inline-block
+        d-print-inline-flex = d-print-inline-flex
+        d-print-none = d-print-none
+        d-print-table = d-print-table
+        d-print-table-cell = d-print-table-cell
+        d-print-table-row = d-print-table-row
+        d-sm-block = d-sm-block
+        d-sm-flex = d-sm-flex
+        d-sm-inline = d-sm-inline
+        d-sm-inline-block = d-sm-inline-block
+        d-sm-inline-flex = d-sm-inline-flex
+        d-sm-none = d-sm-none
+        d-sm-table = d-sm-table
+        d-sm-table-cell = d-sm-table-cell
+        d-sm-table-row = d-sm-table-row
+        d-table = d-table
+        d-table-cell = d-table-cell
+        d-table-row = d-table-row
+        d-xl-block = d-xl-block
+        d-xl-flex = d-xl-flex
+        d-xl-inline = d-xl-inline
+        d-xl-inline-block = d-xl-inline-block
+        d-xl-inline-flex = d-xl-inline-flex
+        d-xl-none = d-xl-none
+        d-xl-table = d-xl-table
+        d-xl-table-cell = d-xl-table-cell
+        d-xl-table-row = d-xl-table-row
+      }
+    }
+  }
+}
