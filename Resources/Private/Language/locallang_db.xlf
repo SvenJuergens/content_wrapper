@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2020-05-26T19:36:39+00:00" product-name="content_wrapper">
+    <header/>
+    <body>
+      <trans-unit id="tt_content.tx_contentwrapper_classes" xml:space="preserve">
+        <source>Additional Css Classes</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_contentwrapper_classes_select" xml:space="preserve">
+        <source>Predefined Css Classes</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_contentwrapper_classes_select.I.0" xml:space="preserve">
+        <source>ExampleClass</source>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.div._contentwrapper_" xml:space="preserve">
+        <source>content_wrapper</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
