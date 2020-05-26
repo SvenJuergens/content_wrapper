@@ -23,3 +23,10 @@ defined('TYPO3_MODE') or die();
     'Content_Wrapper: Bootstrap Display Classes'
 );
 
+// TCEFORM
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::registerPageTSConfigFile(
+    'content_wrapper',
+    'Configuration/TsConfig/Page/TCEFORM-bs-embed-classes.tsconfig',
+    'Content_Wrapper: Bootstrap Embed Classes'
+);
+

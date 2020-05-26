@@ -1,0 +1,18 @@
+#################
+#### TCEFORM ####
+#################
+TCEFORM {
+  tt_content {
+    tx_contentwrapper_classes_select{
+      removeItems := addToList(example-class)
+      addItems {
+        embed-responsive = embed-responsive
+        embed-responsive-item = embed-responsive-item
+        embed-responsive-21by9 = embed-responsive-21by9
+        embed-responsive-16by9 = embed-responsive-16by9
+        embed-responsive-4by3 = embed-responsive-4by3
+        embed-responsive-1by1 = embed-responsive-1by1
+      }
+    }
+  }
+}
