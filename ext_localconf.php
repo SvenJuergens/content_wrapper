@@ -17,3 +17,7 @@ defined('TYPO3_MODE') or die();
           }
         }
     '));
+
+// Page Layout Hook
+$GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['cms/layout/class.tx_cms_layout.php']['tt_content_drawFooter']['content_wrapper'] =
+    SvenJuergens\ContentWrapper\Hook\CustomPageLayoutView::class;
