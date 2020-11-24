@@ -2,6 +2,7 @@
     "name": "svenjuergens/content-wrapper",
     "type": "typo3-cms-extension",
     "description": "Own Css Classes for every content element",
+	"license": "GPL-2.0-or-later",
     "authors": [
         {
             "name": "Sven J\u00fcrgens",
