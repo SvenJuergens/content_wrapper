@@ -6,27 +6,27 @@ defined('TYPO3_MODE') or die();
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::registerPageTSConfigFile(
     'content_wrapper',
     'Configuration/TsConfig/Page/TCEFORM-bs-spacing-classes.tsconfig',
-    'Content_Wrapper: Bootstrap Spacing Classes'
+    'Content_Wrapper: Bootstrap4 Spacing Classes'
 );
 
 // TCEFORM
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::registerPageTSConfigFile(
     'content_wrapper',
     'Configuration/TsConfig/Page/TCEFORM-bs-sizing-classes.tsconfig',
-    'Content_Wrapper: Bootstrap Sizing Classes'
+    'Content_Wrapper: Bootstrap4 Sizing Classes'
 );
 
 // TCEFORM
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::registerPageTSConfigFile(
     'content_wrapper',
     'Configuration/TsConfig/Page/TCEFORM-bs-display-classes.tsconfig',
-    'Content_Wrapper: Bootstrap Display Classes'
+    'Content_Wrapper: Bootstrap4 Display Classes'
 );
 
 // TCEFORM
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::registerPageTSConfigFile(
     'content_wrapper',
     'Configuration/TsConfig/Page/TCEFORM-bs-embed-classes.tsconfig',
-    'Content_Wrapper: Bootstrap Embed Classes'
+    'Content_Wrapper: Bootstrap4 Embed Classes'
 );
 
