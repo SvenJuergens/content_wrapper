@@ -3,7 +3,7 @@
 #################
 TCEFORM {
   tt_content {
-    tx_contentwrapper_classes_select{
+    tx_contentwrapper_classes_select {
       removeItems := addToList(example-class)
       addItems {
         d-block = d-block

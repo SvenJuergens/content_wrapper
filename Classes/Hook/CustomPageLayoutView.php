@@ -1,4 +1,5 @@
 <?php
+
 namespace SvenJuergens\ContentWrapper\Hook;
 
 use TYPO3\CMS\Backend\View\PageLayoutView;
@@ -21,16 +22,17 @@ class CustomPageLayoutView implements PageLayoutViewDrawFooterHookInterface
      * @param array $info Processed values
      * @param array $row Record row of tt_content
      */
-    public function preProcess(PageLayoutView &$parentObject, &$info, array &$row) {
+    public function preProcess(PageLayoutView &$parentObject, &$info, array &$row)
+    {
 
-        if(!is_array($info)) {
+        if (!is_array($info)) {
             $info = GeneralUtility::trimExplode(',', $info);
         }
 
-        if(!empty($row['tx_contentwrapper_classes'])){
+        if (!empty($row['tx_contentwrapper_classes'])) {
             $info[] = $this->addContentToInfo('tx_contentwrapper_classes', $row);
         }
-        if(!empty($row['tx_contentwrapper_classes_select'])){
+        if (!empty($row['tx_contentwrapper_classes_select'])) {
             $info[] = $this->addContentToInfo('tx_contentwrapper_classes_select', $row);
         }
     }
