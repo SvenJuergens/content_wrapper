@@ -1,6 +1,6 @@
 <?php
 
-defined('TYPO3_MODE') or die();
+defined('TYPO3') or die();
 /**
  * for using in fluid Templates
  * {data.tx_contentwrapper_classes_select -> f:cObject(typoscriptObjectPath: 'lib.extContentWrapperReplaceComma')}

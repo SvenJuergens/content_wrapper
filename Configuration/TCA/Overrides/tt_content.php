@@ -1,6 +1,6 @@
 <?php
 
-defined('TYPO3_MODE') or die();
+defined('TYPO3') or die();
 
 $GLOBALS['TCA']['tt_content']['columns']['tx_contentwrapper_classes'] = [
     'exclude' => true,

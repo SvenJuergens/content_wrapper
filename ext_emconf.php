@@ -16,14 +16,11 @@ $EM_CONF[$_EXTKEY] = [
     'category' => 'plugin',
     'author' => 'Sven Jürgens',
     'author_email' => '',
-    'state' => 'alpha',
-    'uploadfolder' => 0,
-    'createDirs' => '',
-    'clearCacheOnLoad' => 0,
-    'version' => '1.0.1',
+    'state' => 'beta',
+    'version' => '2.0.0',
     'constraints' => [
         'depends' => [
-            'typo3' => '9.5.31-11.5.99',
+            'typo3' => '11.5.30-11.5.99',
         ],
         'conflicts' => [],
         'suggests' => [],
