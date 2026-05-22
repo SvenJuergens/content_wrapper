@@ -29,8 +29,8 @@ $GLOBALS['TCA']['tt_content']['columns']['tx_contentwrapper_classes_select'] = [
 /***************
  * Add fields to default palettes
  */
-$GLOBALS['TCA']['tt_content']['palettes']['frames']['showitem'] .= '
-    --linebreak--,
-    tx_contentwrapper_classes,
-    tx_contentwrapper_classes_select,
-';
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addFieldsToPalette(
+    'tt_content',
+    'frames',
+    '--linebreak--, tx_contentwrapper_classes, --linebreak--, tx_contentwrapper_classes_select'
+);
